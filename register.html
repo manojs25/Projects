@@ -1,0 +1,118 @@
+<html>
+<head>
+  <link rel="stylesheet" href="w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
+<style>
+body{
+  /* The image used */
+  background-image: url("img2.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+font-family: 'Finger Paint';font-size: 45px;color:black;
+      }
+      h2{
+      font-family: 'Amarante';font-size: 15px;
+            }
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background:#333333; /*dodgerblue;*/
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color:#262626;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<center>
+  <div class="w3-container">
+      <h1><span class="w3-tag w3-white">Join the BOOKMART Family</span></h1>
+   </div>
+</center>
+<form action="/action_page.php" style="max-width:500px;margin:auto;">
+
+
+<br/><br/><br/><br/>
+
+
+
+  <div class="input-container">
+    <i class="fa fa-user icon" style='font-size:24px'></i>
+    <input class="input-field" type="text" placeholder="Username" name="username">
+  </div>
+
+  <div class="input-container">
+    <i class="fas fa-mobile icon" style='font-size:24px'></i>
+    <input class="input-field" type="text" placeholder="Mobile No." name="mobile">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon" style='font-size:24px'></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-calendar icon" style='font-size:24px'></i>
+    <input class="input-field" type="date" placeholder="Date of Birth" name="bday">
+  </div>
+
+  <div class="input-container">
+    <i class="fas fa-address-book icon" style='font-size:24px'></i>
+    <textarea class="input-field" rows="5" placeholder="Address" name="address"></textarea>
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-key icon" style='font-size:24px'></i>
+    <input class="input-field" type="password" placeholder="Password" name="password">
+  </div>
+
+  <button type="submit" class="btn">Register</button>
+</form>
+
+</body>
+</html>
